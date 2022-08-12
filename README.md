@@ -17,7 +17,12 @@ Let's see how we can create a script in Virtual User Generator
   b. In the Settings tab, provide path to your 32-bit JDK version
   c. Run again to verify no compiling issues
   
-## Adding Script 
+## Adding Dependencies
+
+In order to run Appium scripts, we need Dependencies to be able to reference during run-time. Find a [list of all dependencies here][insert link].
+In the Runtime Settings Tab, add the .jar files.
+
+## Adding the Script
 
 ```
 Code to be added
