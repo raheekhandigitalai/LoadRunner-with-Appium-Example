@@ -88,6 +88,20 @@ return0;
 
 In this example, we are launching an Application by the Bundle ID, entering credentials into the username and password field, and before clicking on Login, I am starting the transaction from LoadRunner, and ending the transaction once I am logged in and successfully landed on the dashboard page.
 
+## Viewing the Test Execution and Results in Digital.ai's Continuous Testing platform
+
+While the test is being executed, we would be able to see the live test running under **Execution** page:
+
+![image](https://user-images.githubusercontent.com/71343050/184659393-e6a3d078-63d1-4dbf-bf55-fc10a99bc544.png)
+
+Once the functional test is finished, a report is generated under the **Reports** page:
+
+![image](https://user-images.githubusercontent.com/71343050/184659675-cb4d977f-b93a-4589-8495-756e8d83c6af.png)
+
+By clicking on the relevant report, we can see a detailed reference of the functional test:
+
+![image](https://user-images.githubusercontent.com/71343050/184659847-7f6392d8-ad44-44ba-b91c-6f77335167cc.png)
+
 ## References
 
 [Obtain your Access Key](https://docs.experitest.com/display/TE/Obtaining+Access+Key)
