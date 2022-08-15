@@ -1,6 +1,6 @@
 # LoadRunner-with-Appium-Example
 
-In this example we will briefly look at how we can use LoadRunner with Appium to run Performance Tests
+In this example we will look at how we can use LoadRunner to run Performance Tests with Appium against Digital.ai's Continuous Testing platform.
 
 ## Prerequisites
 
