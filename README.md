@@ -18,6 +18,9 @@ In this example we will look at how we can use LoadRunner to run Performance Tes
 Let's see how we can create a script in **Virtual User Generator**
 
 1. In the "Create a New Script" window, select & create Java Vuser, a new file will be created under the name **Actions.java**
+
+![image](https://user-images.githubusercontent.com/71343050/184699859-38371e1d-8eb6-404f-b124-c972a7331e6e.png)
+
 2. Try running the script to ensure no issues with compilation. If you run into compiling errors, it could be that the JDK is not properply configured
 
     a. In the Solution Explorer, go to Runtime Settings
