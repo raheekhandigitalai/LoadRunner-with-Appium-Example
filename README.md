@@ -19,10 +19,11 @@ Let's see how we can create a script in Virtual User Generator
   
 ## Adding Dependencies
 
-In order to run Appium scripts, we need Dependencies to be able to reference during run-time. Find a [list of all dependencies here]([insert link](https://loadrunnerdependencies.s3.us-east-2.amazonaws.com/loadrunner_dependencies.zip)).
+In order to run Appium scripts, we need Dependencies to be able to reference during run-time. Find the [list of all dependencies here]([https://www.google.com](https://loadrunnerdependencies.s3.us-east-2.amazonaws.com/loadrunner_dependencies.zip))
+
 In the Runtime Settings Tab, add the .jar files:
 
-
+![image](https://user-images.githubusercontent.com/71343050/184656181-d13f401f-639d-4590-a0e6-14d7e0e07669.png)
 
 ## Adding the Script
 
