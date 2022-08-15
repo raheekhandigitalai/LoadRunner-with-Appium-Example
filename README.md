@@ -1,6 +1,6 @@
-# LoadRunner-with-Appium-Example
+# LoadRunner with Appium Example
 
-In this example we will look at how we can use LoadRunner to run Performance Tests with Appium against Digital.ai's Continuous Testing platform.
+In this example we will look at how we can use LoadRunner to run Performance Tests with Appium against [Digital.ai's Continuous Testing platform](https://digital.ai/continuous-testing).
 
 ## Prerequisites
 
@@ -108,4 +108,5 @@ By clicking on the relevant report, we can see a detailed reference of the funct
 ## References
 
 [Obtain your Access Key](https://docs.experitest.com/display/TE/Obtaining+Access+Key)
+
 [Appium Capabilities](https://docs.experitest.com/display/TE/Appium+Server+%28Open+Source%29+Execution)
