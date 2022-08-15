@@ -14,11 +14,11 @@ Let's see how we can create a script in Virtual User Generator
 1. In the "Create a New Script" window, select & create Java Vuser, a new file will be created under the name Actions.java
 2. Try running the script to ensure no issues with compilation. If you run into compiling errors, it could be that the JDK is not properply configured
 
-  a. In the Solution Explorer, go to Runtime Settings
+    a. In the Solution Explorer, go to Runtime Settings
   
-  b. In the Settings tab, provide path to your 32-bit JDK version
+    b. In the Settings tab, provide path to your 32-bit JDK version
   
-  c. Run again to verify no compiling issues
+    c. Run again to verify no compiling issues
   
 ## Adding Dependencies
 
