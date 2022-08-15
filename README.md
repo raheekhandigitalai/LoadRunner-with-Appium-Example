@@ -2,6 +2,12 @@
 
 In this example we will look at how we can use LoadRunner to run Performance Tests with Appium against [Digital.ai's Continuous Testing platform](https://digital.ai/continuous-testing).
 
+- [Prerequisites](#Prerequisites)
+- [Initial Setup](#Initial-Setup)
+- [Adding Dependencies](#Adding-Dependencies)
+- [Adding the Script](#Adding-the-Script)
+- [References](#References)
+
 ## Prerequisites
 
 - 32-bit JDK Version for LoadRunner support of Java Vusers
