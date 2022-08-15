@@ -31,7 +31,7 @@ In the Runtime Settings Tab, add the .jar files:
 We now also need to add dependency references into **Actions.java** so that the script can reach the dependencies during runtime:
 
 ```
-importlrapi.lr;
+import lrapi.lr;
 
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
