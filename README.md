@@ -66,23 +66,23 @@ For the code logic, we need to add it under the "action" function:
 ```
 public int action() throws Throwable {
 
-  DesiredCapabilities capabilities = newDesiredCapabilities();
+  DesiredCapabilities capabilities = new DesiredCapabilities();
   capabilities.setCapability("accessKey", "<INSERT_ACCESS_KEY>");
   capabilities.setCapability("udid", "00008020-000C24C61A60802E");
   capabilities.setCapability("testName", "LoadRunner With Appium Integration");
   capabilities.setCapability("bundleId", "com.experitest.ExperiBank");
   
-  IOSDriver driver = newIOSDriver(newURL("https://uscloud.experitest.com/wd/hub"), capabilities);
+  IOSDriver driver = new IOSDriver(new URL("https://uscloud.experitest.com/wd/hub"), capabilities);
   
   try {
-    newWebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(By.name("usernameTextField")));
+    new WebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(By.name("usernameTextField")));
     driver.findElement(By.name("usernameTextField")).sendKeys("company");
     driver.findElement(By.name("passwordTextField")).sendKeys("company");
 
     lr.start_transaction("Login to ExperiBank"); //Creates a transaction in loadrunner
     
     driver.findElement(By.name("loginButton")).click();
-    newWebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(By.name("logoutButton")));
+    new WebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(By.name("logoutButton")));
     
     lr.end_transaction("Login to ExperiBank",lr.AUTO); //Match this with the start_transaction
   } catch (Exception e) {
