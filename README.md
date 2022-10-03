@@ -70,6 +70,7 @@ public int action() throws Throwable {
   capabilities.setCapability("accessKey", "<INSERT_ACCESS_KEY>");
   capabilities.setCapability("udid", "00008020-000C24C61A60802E");
   capabilities.setCapability("testName", "LoadRunner With Appium Integration");
+  capabilities.setCapability("app", "cloud:com.experitest.ExperiBank");
   capabilities.setCapability("bundleId", "com.experitest.ExperiBank");
   
   IOSDriver driver = new IOSDriver(new URL("https://uscloud.experitest.com/wd/hub"), capabilities);
