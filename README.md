@@ -10,7 +10,7 @@ In this example we will look at how we can use LoadRunner to run Performance Tes
 
 ## Prerequisites
 
-- 32-bit or 64-bit JDK Version for LoadRunner support of Java Vusers (Can either use installed JDK on local machine, or LoadRunner's in-built option)
+- 32-bit or 64-bit JDK Version for LoadRunner support of Java Vusers (_Can either use installed JDK on local machine, or LoadRunner's in-built option_)
 - LoadRunner installed locally on your Windows machine
 
 ## Initial Setup
