@@ -10,7 +10,7 @@ In this example we will look at how we can use LoadRunner to run Performance Tes
 
 ## Prerequisites
 
-- 32-bit JDK Version for LoadRunner support of Java Vusers
+- 32-bit or 64-bit JDK Version for LoadRunner support of Java Vusers (Can either use installed JDK on local machine, or LoadRunner's in-built option)
 - LoadRunner installed locally on your Windows machine
 
 ## Initial Setup
@@ -25,7 +25,7 @@ Let's see how we can create a script in **Virtual User Generator**
 
     a. In the Solution Explorer, go to Runtime Settings
   
-    b. In the Settings tab, provide path to your 32-bit JDK version
+    b. In the Settings tab, provide path to your 32-bit / 64-bit JDK version
   
     c. Run again to verify no compiling issues
   
